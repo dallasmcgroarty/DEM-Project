@@ -3,7 +3,6 @@ h1 {
 }
 
 table, th, td, tr {
-    margin: 0 auto;
     font-size: 20px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -80,4 +79,21 @@ form {
     color: #494747;
     padding: 4px;
     margin: 0;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color:#494747;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.reports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

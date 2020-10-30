@@ -16,6 +16,7 @@
                 $controller->displayHostTotal();
             ?>
         </div>
+        <a href="store_report.php" class="link">Store Report</a>
         <?php
             // get all supervisors and show details in html table
             $controller = new UIController();

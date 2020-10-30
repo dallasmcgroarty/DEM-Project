@@ -16,6 +16,7 @@
                 $controller->displayStoreTotals();
             ?>
         </div>
+        <a href="supervisor_report.php" class="link">Supervisor Report</a>
         <?php
             // get all stores from database and show details in html table
             $controller->displayStores();
