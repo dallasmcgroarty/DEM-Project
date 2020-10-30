@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+}
+
+table, th, td, tr {
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table {
+    margin-top: 10px;
+}
+td {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #494747;
+    font-size: 34px;
+}
+
+.info-text {
+    text-align: center;
+    color: #494747;
+    font-size: 28px;
+}
+
+td a {
+    text-decoration: none;
+    color: blue;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit {
+    margin-left: 20px;
+    outline: none;
+    background-color: #5e5c5c;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 3px 3px #999;
+}
+
+.btn-submit:hover {
+    background-color: #494747;
+}
+
+.btn-submit:active {
+    background-color: #494747;
+    box-shadow: 0 1px 1px #999;
+    transform: translateY(2px);
+}
+
+.user-id {
+    display: none;
+}
+
+.store-select {
+    font-size: 18px;
+    padding: 8px;
+}
+
+.totals {
+    font-size: 20px;
+    color: #494747;
+    padding: 4px;
+    margin: 0;
+}
