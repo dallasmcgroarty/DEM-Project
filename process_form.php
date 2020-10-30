@@ -3,7 +3,7 @@
     include('classes/SupervisorProvider.php');
     include('./surrounding_stores_finder.php');
 
-    // if not host is chosen, change msg
+    // if no host is chosen, set msg
     if(empty($_POST['store'])) {
         $msg = "<p>No host chosen!</p>";
     }

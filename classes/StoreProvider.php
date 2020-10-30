@@ -1,4 +1,7 @@
 <?php
+
+// StoreProvider class used for all interactions with the
+// store table from the database
 class StoreProvider {
     private $conn;
 
@@ -57,6 +60,8 @@ class StoreProvider {
         return $row;
     }
 
+    // update surrounding stores host_id
+    // takes in hostid and storeid
     public function updateSurroundingStoreHost($hostID, $storeID) {
         $query = $this->conn->prepare("UPDATE sample_storelist SET host_id = :hostID WHERE id = :storeID");
 
@@ -66,6 +71,8 @@ class StoreProvider {
         $query->execute();
     }
 
+    // update distance to host for a surrounding store
+    // takes in storeid and distance value as decimal
     public function updateDistanceToHost($storeID, $distance) {
         $query = $this->conn->prepare("UPDATE sample_storelist SET distance_to_host = :distance WHERE id = :storeID");
 

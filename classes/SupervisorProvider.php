@@ -1,4 +1,6 @@
 <?php
+// SupervisoreProvider used for all interactions with the
+// supervisor table in the database
 class SupervisorProvider {
     private $conn;
 

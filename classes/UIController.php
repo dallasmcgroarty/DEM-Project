@@ -3,6 +3,9 @@
     include('classes/SupervisorProvider.php');
     include('classes/StoreProvider.php');
 
+// UIController class used to display all information from the 
+// database on the web page
+// has access to SupervisorProvider and StoreProvider classes
 class UIController {
 
     // public function __construct() {
@@ -127,6 +130,7 @@ class UIController {
 
     }
 
+    // display total hosts for supervisors
     public function displayHostTotal() {
         global $conn;
         $provider = new SupervisorProvider($conn);

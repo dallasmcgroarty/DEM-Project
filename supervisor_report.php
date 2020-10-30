@@ -18,9 +18,6 @@
         </div>
         <?php
             // get all supervisors and show details in html table
-            // $provider = new SupervisorProvider($conn);
-            // $supervisors = $provider->getAllSupervisors();
-            // echo $supervisors;
             $controller = new UIController();
             $controller->displaySupervisors();
         ?>
